@@ -9,3 +9,4 @@ git add text.txt                                            //add to the copy
 git commit -am "This is a comment"                          //commit changes
 git push origin master                                      //send changes
 ```
+#### Subtask 2:
