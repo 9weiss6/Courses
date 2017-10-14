@@ -1,4 +1,4 @@
-### Tasks 2 -
+## Tasks 2 -
 #### Subtask 1:
 ```
 git clone git@github.com:krinkin/git-example.git					//use SSH  cloning into 'git-example'
@@ -44,4 +44,21 @@ cat ~/.ssh/id_rsa.pub
 ```
 //We learn how the repository was downloaded
 vim .git/config
+```
+## Tasks 3 -
+#### Subtask 1:
+```
+git status						//shows changes
+```
+#### Subtask 2:
+```
+touch function.cpp
+touch main.cpp
+touch description.txt
+git add function.cpp main.cpp description.txt		//added in work copy
+git commit -m "init"
+touch text.txt
+rm description.txt									//delete file
+git add text.txt									
+git status -s										//shortened view
 ```
