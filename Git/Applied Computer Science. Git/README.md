@@ -11,8 +11,8 @@ git push origin master                                      //send changes on se
 ```
 #### Subtask 2:
 ```
-git clone https://github.com/krinkin/git-example.git git_example  //use HTTPS cloning into local repository'git-example'
-cd git-example/
+git clone https://github.com/krinkin/git-example.git git_example  //use HTTPS cloning into local 
+cd git-example/                                                   // repository'git-example'
 touch new_file                                                    //The create new file txt
 git add new_file                                                  //add to the work copy
 git commit -am "This is a comment"                                //commit changes
@@ -22,8 +22,8 @@ Password for 'https://krinkin@github.com': ****
 ```
 #### Subtask 3:
 ```
-git clone git@github.com:krinkin/git-example.git git_example2       //use SSH cloning into local repository'git-example2'
-cd git-example2/
+git clone git@github.com:krinkin/git-example.git git_example2       //use SSH cloning into local 
+cd git-example2/                                                    // repository'git-example2'
 touch new_file                                                      //The create new file txt
 git add new_file                                                    //add to the work copy
 git commit -am "This is a comment"                                  //commit changes
