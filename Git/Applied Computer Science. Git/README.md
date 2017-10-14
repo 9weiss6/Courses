@@ -1,5 +1,5 @@
-###Tasks 2 -
-####Subtask 1:
+### Tasks 2 -
+#### Subtask 1:
 ```
 git clone git@github.com:krinkin/git-example.git  //use SSH  cloning into 'git-example'
 cd git-example/
