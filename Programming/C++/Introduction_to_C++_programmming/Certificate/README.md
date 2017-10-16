@@ -1,2 +1,2 @@
 
-![alt text](https://stepik.org/certificate/fc047dfb956d99faf2487df52d9bb9155126064c.pdf)
+![alt text](https://drive.google.com/file/d/0Byyyuacuf3PzbzJNN1M2ZTVjcUk/view?usp=sharing)
