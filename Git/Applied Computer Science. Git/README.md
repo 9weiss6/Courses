@@ -62,3 +62,14 @@ rm description.txt									//delete file
 git add text.txt									
 git status -s										//shortened view
 ```
+
+## Tasks 4 -
+
+#### Subtask 1:
+```
+cat 'namefile' 			//shows the contents of the file 
+git .gitignore			//list of files that do not need to be indexed
+
+  *.a				//skip all files of this type other than
+  !lib.a			//this file
+```
