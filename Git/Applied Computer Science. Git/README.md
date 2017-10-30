@@ -3,7 +3,9 @@ git config --global user.name "Dmity"          //Setting Git
 git config --global user.email my@mail.com
 git config --global core.pager 'less -r'
 ```
-
+```
+git pull origin master			//For sync the repository
+```
 ## Tasks 2 -
 #### Subtask 1:
 ```
