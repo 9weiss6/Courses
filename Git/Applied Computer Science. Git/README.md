@@ -81,3 +81,45 @@ git .gitignore			//list of files that do not need to be indexed
   *.a				//skip all files of this type other than
   !lib.a			//this file
 ```
+
+#### Subtask 2:
+```
+git add [options] [<pathspec>...]
+- <pathspecs>...  Files whose contents are added to the index. You can specify
+		pattern ( for example - *.c) to add all matching files
+- -n --dry-run   Files will not be added, will be shown if they exist and/or
+		will be ignored
+- -f --force    Allows the addition of ignored files
+
+			:Examples:
+
+git add file.txt		//Adding one file
+git add Documentation/\*.txt 	//Adding the contents of all files from 
+				//directory and its subdirectories
+git add git-*.sh		//Adding the contents from all git-*.sh scripts
+```
+
+#### Subtask 3:
+```
+git rm [option] <file>...
+- <file>...  Files to delete. You can specify a file search pattern 
+	(for example - *.c) to delete all matching files
+- -f --force  Forced Deletion if the file has been modified and indexed
+- -n --dry-run  Files will not be deleted, information will be shown if they
+		exist in the index and therefore will be deleted with the 			git rm command
+- -r 	Recursive deletion when specifying a directory name
+- --cached 	Use this option to disable and delete paths only from index.
+		Files, regardless of whether they are modifield or not,
+		will not be deleted.
+
+				:Examples:
+git rm Documentatio/\*.txt	Delete all files from the index, which are in 
+		directory and any of its subdirectories
+git rm --cached file.txt	Deleting a file from the index only (but saves
+			it in the file system)
+```
+
+#### Subtask 4:
+```
+
+
