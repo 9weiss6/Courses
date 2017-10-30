@@ -121,5 +121,16 @@ git rm --cached file.txt	Deleting a file from the index only (but saves
 
 #### Subtask 4:
 ```
+git commit [option] [<file>...]
+- -a -all
+- -m <msg> --message=<msg>
+- --amend	//Changing the last commit
+- <file>...	//Only changes to the given files are
 
+				:Examples:
 
+rm goodbye.c
+git commit -a
+
+git commit Makefile
+```
