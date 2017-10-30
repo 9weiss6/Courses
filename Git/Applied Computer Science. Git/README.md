@@ -1,3 +1,9 @@
+```
+git config --global user.name "Dmity"          //Cinfuguring git
+git config --global user.email my@mail.com
+git config --global core.pager 'less -r'
+```
+
 ## Tasks 2 -
 #### Subtask 1:
 ```
