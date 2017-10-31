@@ -8,7 +8,4 @@
 + Added Introduction to C++ Programming - [C++_Yandex_Course](https://github.com/9weiss6/Courses/tree/master/Programming/C%2B%2B/Introduction_to_C%2B%2B_programmming)
 
 
-https://png.icons8.com/git/ios7/25
-
-
 
