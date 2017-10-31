@@ -134,3 +134,22 @@ git commit -a
 
 git commit Makefile
 ```
+
+## Task 5 -
+
+#### Subtask 1:
+```
+//Create a new branch
+git branch <name_branch> 	|
+				|->   git checkout -b <name_branch>
+git checkout <name_branch>	|
+
+//List of current branches
+git branch
+```
+
+#### Subtask 2:
+```
+//Output all branches, search by name and create a file with this name
+cd REPO/ && git branch | grep 5555 > ../answer
+```
