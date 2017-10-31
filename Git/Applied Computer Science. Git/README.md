@@ -153,3 +153,26 @@ git branch
 //Output all branches, search by name and create a file with this name
 cd REPO/ && git branch | grep 5555 > ../answer
 ```
+
+## Task 6 -
+
+#### Subtask 1:
+```
+git checkout [options] [<branch>]/<commit>/<tag>
+git checkout [options] <file_name_to_restore>
+
+- -f --force		//Allows you to switch between branches
+- -b <new_branch>	//Creates a new branch
+
+		:Examples:
+
+git checkout master	//Go to master branch
+
+git chekout HEAD	//Go to the commit HEAD
+
+git checkout HEAD~4	//Go to the commit preceding HEAD on 4
+
+//Find tje commit hash using git log and go to this commit
+git log --grep="Commit message fragment"	
+git checkout b20eb8dafjfji64754dsfdfs757dsfsafsd77sdf0a 
+
