@@ -175,4 +175,11 @@ git checkout HEAD~4	//Go to the commit preceding HEAD on 4
 //Find tje commit hash using git log and go to this commit
 git log --grep="Commit message fragment"	
 git checkout b20eb8dafjfji64754dsfdfs757dsfsafsd77sdf0a 
+```
 
+Subtask 2:
+```
+//Find a commit with message containing "Git rules!" string and switch to it
+git checkout $(git log --grep='Git rules!' | grep 'commit' | cut -d ' ' -f 2)
+git checkout $(git log --grep='Git rules!' --format=%h)
+```
