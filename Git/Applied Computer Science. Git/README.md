@@ -177,9 +177,32 @@ git log --grep="Commit message fragment"
 git checkout b20eb8dafjfji64754dsfdfs757dsfsafsd77sdf0a 
 ```
 
-Subtask 2:
+#### Subtask 2:
 ```
 //Find a commit with message containing "Git rules!" string and switch to it
 git checkout $(git log --grep='Git rules!' | grep 'commit' | cut -d ' ' -f 2)
 git checkout $(git log --grep='Git rules!' --format=%h)
+```
+
+## Task 7 -
+
+#### Subtask 1:
+```
+git-fetch //Downloads objects and links from a remote repository
+
+git fetch [<options>] [<repository> [<refspec>...]]
+git fetch [<options>] <group>
+git fetch --multiple [<options>] [(<repository> | <group>)...]
+git fetch --all [<options>]
+
+- --all //Downloads all files
+- -t --tags //Downloads all tags from the remote repository
+
+			:Example:
+
+//Update the remote-tracking branches
+git fetch origin
+
+//Downloads tags
+git fetch -t
 ```
