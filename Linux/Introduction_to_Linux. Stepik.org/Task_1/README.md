@@ -1,4 +1,4 @@
-### Task 1: :grey_exclamation:
+### Task 1:
 
 #### Basics:
 ```
