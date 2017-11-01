@@ -20,3 +20,13 @@ cat ~/.id_rsa.pub		//View the public key
 nano ~/.ssh/authorised_keys	//Editing keys on the server
 ```
 
+#### Copy files:
+```
+scp -P 'port'
+login@adress_server:way_1 way_2
+//server(way_1);  client(way_2);
+
+scp -P 'port'
+way_1 login@adress_server:way_2
+//client(way_1);  server(way_2);
+```
