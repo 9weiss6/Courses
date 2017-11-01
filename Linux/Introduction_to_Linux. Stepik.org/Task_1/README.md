@@ -72,11 +72,42 @@ Program_1 | Program_2 | ... | Program_N   //Pass the value from one program to t
 #### Downloading files:
 ```
 wget link         //Download file in the current directory
-wget -P path/to/directory  link   //Save to the specified (указанную) directory
-wget -O path/to/directory  link   //Save to the specified directory under the specified name
+wget -P link  path/to/directory    //Save to the specified (указанную) directory
+wget -O link  path/to/directory    //Save to the specified directory under the specified name
 wget -c               //Resume download file
 wget --spider link    //Check file availability by link
 wget -i text_file     //Download multiple files of the text file
 wget -r -l 'depth' link   //Recursive download by reference
 wger -r -A type_file1,type_file2,...,tyoe_fileN link  //Recursive download link only certain file types
 ```
+#### Archivers
+```
+//Unpack
+unzip archive.zip		//Unpack archive
+gunzip archive.gz		//Unpack archive and delete archive file *.gz
+
+//Packing
+zip archive.zip file_1, file_2...file_N		//Packing files and\or files in the archive
+gzip file		//Packing only file
+
+tar -cvf archive.tar file_1, file_2...file_N	//Packing in archive without compression
+	-c = Create archive
+	-v = Output on display
+	-f = File on filesystem (at the end)
+gzip archive.tar				//Packing archive *.tar
+
+tar -zcvf archive.tar.gz file_1, file_2,..file_N	//Packing files in the archive *.gz
+
+tar -xvf archive.tar					//Unpack archive tar
+
+tar -xzvf archive.tar.gz				//Unpack archive gzip
+
+//Another archivers
+
+bzip2 file_archive
+bunzip2 file _archive.bz2
+
+tar -cjvf archive.tar.bz2 file_1, file_2, ... file_N		//Packing
+tar -xjvf archive.tar.bz2 					//Unpacking
+```
+
