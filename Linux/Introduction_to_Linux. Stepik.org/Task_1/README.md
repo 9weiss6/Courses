@@ -111,3 +111,18 @@ tar -cjvf archive.tar.bz2 file_1, file_2, ... file_N		//Packing
 tar -xjvf archive.tar.bz2 					//Unpacking
 ```
 
+#### Data Search
+```
+find <directory> -name "<name_file>"
+
+find ~/ -name "file.txt"		//Find file.txt in the home directory
+find ~/ -name "*.txt"			//Find all txt file in the home directory
+
+//Search by content
+grep "<string>" <file>			//Search for a string in a file
+grep -c "<string>" <file>		//Number of string references
+grep -r "<string>" <directory>		//Searching for a line in a directory
+
+grep --color "Hello" name.txt 		//Highlight(COLOR) found words
+grep -v "hello" name.txt		//Displays rows in which there is no search
+```
