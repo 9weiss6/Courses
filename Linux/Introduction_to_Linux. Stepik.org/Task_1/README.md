@@ -2,6 +2,9 @@
 
 #### Basics:
 ```
+./name_program				//Start program from current directory
+/directory/name_programm		//Run the program from the directory
+
 Ctrl+Alt+T //Start terminal
 
 Ctrl+A  //Go to start
