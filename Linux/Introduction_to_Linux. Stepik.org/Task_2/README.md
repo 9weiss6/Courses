@@ -89,3 +89,41 @@ Esc,Ctrl+C            //Exit history mode
 {Ctrl+B}+"            //Horizontal separation
 {Ctrl+B}+%            //Vertical separation
 {Ctrl+B}+!            //Final separation
+
+### Task 3:
+
+#### Advanced topics (vim,bash,et al.):
+```
+//Editor Vim
+vim
+vim file_1
+vim file_1 file_2 file_3
+
+:q      //Exit
+:help   //Information
+
+vimtutor      //Tutorial
+```
+#### Operating mode vim:
+```
+normal = commands start with ':'
+insert = exit with <Esc>, <Ctrl+C>
+visual = Selection mode
+```
+
+#### Moving in vim:
+```  
+By symbols:
+  Arrows, h;j;k;l
+According to:
+  w,W - To the beginning of the next word
+  e,E - At the end of the next word
+  b,B - To the beginning of the previous word
+  
+  0 - Start of line
+  ^ - The first non-whitespace character
+  $ - End of line
+```
+  
+
+
