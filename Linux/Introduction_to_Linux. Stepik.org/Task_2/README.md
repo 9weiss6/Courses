@@ -123,7 +123,47 @@ According to:
   0 - Start of line
   ^ - The first non-whitespace character
   $ - End of line
+  
+  gg - Start of file
+  G - End of file
+  :21<Enter> - Go to line 14
+
+  <Ctrl+U> - Up on the floor
+  <Ctrl+D> - Down to the screen floor
 ```
+
+#### Delete in vim:
+```
+By symbols:
+  x - Symbol under the cursor
+  X - The character before the cursor
+At once a lot:  d[<quantity>] <stroke>
+  de - Delete to the end of the current word
+  d$ - Delete to end of line
+  d<5>w - Remove <5> words
+  dd - Delete row (example: d10d)
+```
+
+#### Create in vim:
+```
+i - Enter the insert mode
+a - Move the cursor to the right and enter the insert mode
+i = ^i
+A = $a
+o - Insert a empty line from the BOTTOM and edit it
+O - Insert a empty line from the TOP and edit it
+```
+
+#### Copying:
+```
+//Copy
+y[<quantity>] <stroke> - Copy
+yy - Copy line
+
+//Paste
+p - Insert before
+P - Insert after
+```  
   
 
 
