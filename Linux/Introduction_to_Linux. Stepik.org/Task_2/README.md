@@ -89,7 +89,7 @@ Esc,Ctrl+C            //Exit history mode
 {Ctrl+B}+"            //Horizontal separation
 {Ctrl+B}+%            //Vertical separation
 {Ctrl+B}+!            //Final separation
-
+```
 ### Task 3:
 
 #### Advanced topics (vim,bash,et al.):
