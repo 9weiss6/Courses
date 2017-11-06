@@ -241,4 +241,77 @@ Reading:
     //example
     var="First Argument $1"
     echo "Total passed $# arguments"
+    ```
     
+ #### Branching in bash:
+ ```
+ Syntax:
+    if [[condition]]
+    then
+    #Action
+    fi
+ Conditions (lines):
+    -z <line>  #line empty
+    -n <line>   #line not empry
+    <line1> == <line2>
+    <line1> != <line2>
+ 
+ //Example
+    if [[-z $1]]
+    then 
+      echo "First Argument is empty"
+    fi
+    
+    if [[$var1 == $var2]]
+    then
+      echo "The variables are equal"
+    fi
+    
+Conditions [numbers (rows)]:
+  <numbers/rows> operation <numbers/rows>
+    -eq, (==)
+    -ne, (!=)
+    -lt, (<)
+    -le, (< or =)
+    -gt, (>)
+    -ge, (> or =)
+    
+Conditions (files):
+    -e <directory>  #path exists
+    -f <directory>  #this file
+    -d <directory>  #this is the directory
+    -s <directory>  #file size greater than 0
+    -x <directory>  #executable file
+    
+Conditions (logical):
+    ! - #Negation of a Boolean expression
+    && - #Logical "AND"
+    || - #Logical "OR"
+        
+if [[$var1 == $var2]]
+    then
+      #Action
+    else
+      #Action else
+    fi
+    
+if [[$var1 == $var2]]
+    then
+      #Action
+    elif [[$var1 != $var2]]
+    then
+      #Action
+    else
+      #Action else
+    fi
+    
+case <variable> in
+value1)
+    #Action
+value2)
+    #Action
+    ;;
+ *)
+    #Default Action
+esac
+```
