@@ -241,9 +241,9 @@ Reading:
     //example
     var="First Argument $1"
     echo "Total passed $# arguments"
-```
-```
- #### Branching in bash:
+
+
+#### Branching in bash:
  ```
  Syntax:
     if [[condition]]
