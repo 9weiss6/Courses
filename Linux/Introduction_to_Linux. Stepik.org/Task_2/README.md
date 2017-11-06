@@ -199,7 +199,9 @@ Cancel / Return:
 #!/bin/bash                 //Find out the location <which bash>
 echo "Hello, world!"
 ```
+```
 touch script.sh
 vim script.sh             //Paste code
 chmod +x script.sh
 ./script.sh
+```
