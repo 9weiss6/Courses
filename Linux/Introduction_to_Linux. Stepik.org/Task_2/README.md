@@ -226,7 +226,7 @@ Reading:
   ```
   
   #### Arguments in bash:
-  ```
+```
   Passing arguments to a script:
     ./script.sh arg1 arg2 agr3...
     
@@ -241,7 +241,7 @@ Reading:
     //example
     var="First Argument $1"
     echo "Total passed $# arguments"
-
+```
 
 #### Branching in bash:
  ```
