@@ -164,6 +164,16 @@ yy - Copy line
 p - Insert before
 P - Insert after
 ```  
-  
 
+#### Search and replace:
+```
+Search:
+  /<text> - Search for <text> forward
+  ?<text> - Search for <text> back
+  n - Next Entry
+  N - Previous entry
+
+Replacement:
+  :%s/<what are we looking for>/<on which we change>/<flags> - Flags: 9 - many replacements in a row; c - confirmation
+```
 
