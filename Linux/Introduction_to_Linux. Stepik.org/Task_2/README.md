@@ -316,7 +316,7 @@ value2)
 esac
 ```
 
-#### Cycles:
+#### Cycles in bash:
 ```
 Syntax:
 //for
@@ -337,3 +337,41 @@ continue
 //Request from the user
     read <variable>
  ```
+
+#### Arithmetic in bash:
+```
+Syntax:
+    let "variable=expression"
+Example:
+    let "c = 1 + 1" 
+    let "c = c + b"   //"c+=b"
+    
+    ** - Exponentiation
+    % - Remainder of the division
+```
+
+#### External programs:
+```
+Syntax:
+    variable = 'program'
+Example:
+    a = 'echo "test"'
+    files = 'ls ~'
+  
+Return code:
+    0 - Successful complete
+    !0 - Error
+    $? - Get the code
+    exit <code> - Exit with code
+Example:
+touch file.txt
+echo $?
+
+Checking the return code:
+    if 'program'
+    #Action if return code = 0
+    then
+    else
+    #Action if return code = 1 or !0
+    fi
+    
