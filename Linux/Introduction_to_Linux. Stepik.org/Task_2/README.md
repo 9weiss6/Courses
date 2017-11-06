@@ -174,6 +174,7 @@ Search:
   N - Previous entry
 
 Replacement:
-  :%s/<what are we looking for>/<on which we change>/<flags> - Flags: 9 - many replacements in a row; c - confirmation
+  :%s/<what are we looking for>/<on which we change>/<flags> 
+  Flags: g - many replacements in a row; c - confirmation
 ```
 
