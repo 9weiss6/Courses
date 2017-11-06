@@ -178,17 +178,28 @@ Replacement:
   Flags: g - many replacements in a row; c - confirmation
 ```
 
-#### Cancel / Return in vim
+#### Cancel / Return in vim:
 ```
 Cancel / Return:
   u - Undo the last action
   <Ctrl+r> - Return undone action
 ```
 
-#### Saving your work in vim
+#### Saving your work in vim:
 ```
   :w - Save Changes
   :wq - Save and exit
   :!q - Exit without saving
   :w <file> - Save changes to file
 ```
+
+### Scripts on bash:
+```
+//bash code
+#!/bin/bash                 //Find out the location <which bash>
+echo "Hello, world!"
+```
+touch script.sh
+vim script.sh             //Paste code
+chmod +x script.sh
+./script.sh
