@@ -205,3 +205,40 @@ vim script.sh             //Paste code
 chmod +x script.sh
 ./script.sh
 ```
+
+#### Variables in bash:
+```
+//bash code
+Writing (overwriting) the value:
+  <name>=<value>
+  //example
+  path=~/Docs
+Reading:
+  $<name> or ${<name>}
+# - This is a comment
+  //example
+  path2=$path/file.txt  #path2=~/Docs/file1.txt
+  echo "Path is $path2"   #Path is ~/Docs/file1.txt
+  echo "Path is ${path}2"   #Path is ~/Docs2
+  
+  '<only_text>'
+  "<text>"
+  ```
+  
+  #### Arguments in bash:
+  ```
+  Passing arguments to a script:
+    ./script.sh arg1 arg2 agr3...
+    
+  Processing inside the script:
+    $1 - The first argument
+    $2 - Second argument
+    ...
+    
+    $0 - Name script
+    $# - The Number of Arguments
+  
+    //example
+    var="First Argument $1"
+    echo "Total passed $# arguments"
+    ```
