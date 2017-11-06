@@ -350,7 +350,7 @@ Example:
     % - Remainder of the division
 ```
 
-#### External programs:
+#### External programs in bash:
 ```
 Syntax:
     variable = 'program'
@@ -374,4 +374,4 @@ Checking the return code:
     else
     #Action if return code = 1 or !0
     fi
-    
+ ```
