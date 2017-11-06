@@ -315,3 +315,25 @@ value2)
     #Default Action
 esac
 ```
+
+#### Cycles:
+```
+Syntax:
+//for
+    for <variable> in <list of values>
+    do
+    #Action
+    done
+    
+break
+continue
+
+//while
+    while [[condition]] 
+    do
+    #Action
+    done
+    
+//Request from the user
+    read <variable>
+ ```
