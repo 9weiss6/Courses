@@ -108,7 +108,7 @@ vimtutor      //Tutorial
 ```
 normal = commands start with ':'
 insert = exit with <Esc>, <Ctrl+C>
-visual = Selection mode
+visual = Selection mode   //<v> - transition from normal mode; d (delete); y(copy)
 ```
 
 #### Moving in vim:
