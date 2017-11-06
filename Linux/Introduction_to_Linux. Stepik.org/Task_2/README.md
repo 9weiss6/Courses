@@ -154,7 +154,7 @@ o - Insert a empty line from the BOTTOM and edit it
 O - Insert a empty line from the TOP and edit it
 ```
 
-#### Copying:
+#### Copying in vim:
 ```
 //Copy
 y[<quantity>] <stroke> - Copy
@@ -165,7 +165,7 @@ p - Insert before
 P - Insert after
 ```  
 
-#### Search and replace:
+#### Search and replace in vim:
 ```
 Search:
   /<text> - Search for <text> forward
@@ -178,3 +178,17 @@ Replacement:
   Flags: g - many replacements in a row; c - confirmation
 ```
 
+#### Cancel / Return in vim
+```
+Cancel / Return:
+  u - Undo the last action
+  <Ctrl+r> - Return undone action
+```
+
+#### Saving your work in vim
+```
+  :w - Save Changes
+  :wq - Save and exit
+  :!q - Exit without saving
+  :w <file> - Save changes to file
+```
