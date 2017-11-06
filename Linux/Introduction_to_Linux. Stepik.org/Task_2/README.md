@@ -375,3 +375,19 @@ Checking the return code:
     #Action if return code = 1 or !0
     fi
  ```
+ 
+ #### Function in bash:
+ ```
+ Syntax:
+    name_function ()
+    {
+      #Action     // $1, $2, $3,...  $# - Arguments in the function
+      local var_local = 1     //Are visible only inside the function
+    }
+    
+    name_function() { action_1; action_2; ...}
+    if [[ $var=="test" ]]; then
+    ...
+    for i do 1 2 3 4 5; do
+    ...
+ ```
