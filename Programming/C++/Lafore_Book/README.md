@@ -1,4 +1,4 @@
-## Status: ![logo][image] 
+## Status: 
 
 **Обучение по книге Роберта Лафоре "Объектно-ориентированное проектирование в С++"**
 
@@ -14,5 +14,3 @@
 * Виртуальные функции
 
 
-
-[image]:http://midlandbooks.ie/wp-content/uploads/2015/03/Book-icon1.png
