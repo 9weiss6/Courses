@@ -36,9 +36,9 @@ int main()
 {
 	Dev1 dv1;
 	Dev2 dv2;
-	Base* ptr;
+	Base* ptr;		//Указатель на базовый класс
 
-	ptr = &dv1;
+	ptr = &dv1;		//Заносит адрес в указатель
 	ptr->show();
 	ptr = &dv2;
 	ptr->show();
